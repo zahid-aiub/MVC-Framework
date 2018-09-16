@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<app>
+	
+	<mvc id="RegModule">
+
+		<ctrl>controller.RegCon</ctrl>
+		<view>../WEB-INF/view/Login.jsp</view>
+
+
+	</mvc>
+
+
+	<mvc id="LogModule">
+
+		<ctrl>controller.LogCon</ctrl>
+		<view>homepage</view>
+		
+	</mvc>
+
+
+	<mvc id="homepage">
+		<ctrl>controller.HomeP</ctrl>
+		<view>../WEB-INF/view/Homepage.jsp</view>
+
+	</mvc>
+	
+	
+	<mvc id="Registration">
+		<ctrl>controller.Route</ctrl>
+		<view>../WEB-INF/view/Registration.jsp</view>
+	</mvc>
+	
+	
+	<mvc id="Login">
+		<ctrl>controller.Route</ctrl>
+		<view>../WEB-INF/view/Login.jsp</view>
+	</mvc>
+	
+</app>
